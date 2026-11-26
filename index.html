@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Книга рецептов</title>
+    <link href="https://googleapis.com" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Книга рецептов</h1>
+    </header>
+
+    <!-- Навигация по 4 разделам -->
+    <nav id="category-nav">
+        <button class="tab-btn active" data-target="diy"> Сделай сам</button>
+        <button class="tab-btn" data-target="soups"> Супы</button>
+        <button class="tab-btn" data-target="mains"> Горячее</button>
+        <button class="tab-btn" data-target="desserts"> Десерты</button>
+    </nav>
+
+    <!-- Пустые контейнеры разделов для вашего будущего наполнения -->
+    <main>
+        <section id="diy" class="category-section active"></section>
+        <section id="soups" class="category-section"></section>
+        <section id="mains" class="category-section"></section>
+        <section id="desserts" class="category-section"></section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
